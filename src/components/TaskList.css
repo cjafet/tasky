@@ -1,5 +1,6 @@
 .Flex {
     width: 100%;
+    margin-left: 10px;
 }
 
 input, select {
@@ -13,6 +14,8 @@ input, select {
 
 .TaskyForm {
     text-align: left;
+    margin-left: 10px;
+    margin-top: 10px;
 }
 
 .CommentIcon {

@@ -17,8 +17,11 @@
 .UserPic {
     width: 40px;
     height: 40px;
+    margin-top: -6px;
+    margin-right: 6px;
     border-radius: 50%;
     background-color: #ffffff;
+
 }
 
 .UserIcon {
@@ -28,4 +31,8 @@
 
 .Logo {
     float: left;
+}
+
+.Logo ul {
+    margin-left: -34px;
 }
