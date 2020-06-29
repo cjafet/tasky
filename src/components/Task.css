@@ -1,0 +1,40 @@
+.Tasky {
+    position: relative;
+    width: 100%;
+    max-width: 230px;
+    min-width: 230px;
+    height: 93px;
+    padding: 0;
+    margin: 10px 8px;
+    color: #fff;
+    border-radius: 8px;
+    float: left;
+}
+
+.Green {
+    background-color: #4caf50;
+}
+
+.Blue {
+    background-color: #4c4caf;
+}
+
+.Purple {
+    background-color: #754caf;
+}
+
+ul > li {
+    list-style: none;
+    padding: 2px 18px;
+    text-align: left;
+}
+
+ul > li:first-child {
+    /* border-bottom: 1px solid white; */
+    margin-top: 8px;
+    font-weight: 800;
+}
+
+ul > li:last-child {
+    text-align-last: right;
+}
