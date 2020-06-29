@@ -5,7 +5,6 @@ import './TaskList.css';
 const TASK_COLORS = [
     'Green',
     'Blue',
-    'Red',
     'Purple'
 ];
 
