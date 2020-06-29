@@ -1,12 +1,12 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
-
-In the project directory, you can run:
-
 ## Font Awesome Icons
 You can choose the icons from the following Font Awesome link:
 https://fontawesome.com/v4.7.0/icons/
+
+## Available Scripts
+
+In the project directory, you can run:
 
 ### `yarn start`
 
