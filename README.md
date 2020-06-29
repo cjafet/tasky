@@ -4,6 +4,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+## Font Awesome Icons
+You can choose the icons from the following Font Awesome link:
+https://fontawesome.com/v4.7.0/icons/
+
 ### `yarn start`
 
 Runs the app in the development mode.<br />

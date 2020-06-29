@@ -1,0 +1,31 @@
+.Menu {
+    background-color: #4caf50;
+    height: 80px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.Menu ul {
+    float: right;
+    display: inline-flex;
+    color: #ffffff;
+}
+
+.Logout {
+    color: #ffffff;
+}
+
+.UserPic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+
+.UserIcon {
+    height: 80px;
+    margin: 0;
+}
+
+.Logo {
+    float: left;
+}
