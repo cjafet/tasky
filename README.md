@@ -1,12 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-<<<<<<< HEAD
-=======
 ## Font Awesome Icons
 You can choose the icons from the following Font Awesome link:
 https://fontawesome.com/v4.7.0/icons/
 
->>>>>>> 4135f17c1a68fee23c8b19064fcb8933ec5589bd
 ## Available Scripts
 
 In the project directory, you can run:

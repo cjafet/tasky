@@ -1,20 +1,3 @@
-<<<<<<< HEAD
-import React from 'react';
-import Task from './Task';
-
-const TaskList = props => (
-    <div className="task-list">
-      <div className="task-list-title">
-        <strong>{props.status}</strong>
-      </div>
-      {props.tasks.map(task => (
-        <Task key={task.id} task={task} onStatusChange={props.onStatusChange} />
-      ))}
-    </div>
-);
-
-export default TaskList;
-=======
 import React, { Component } from "react";
 import Task from "./Task";
 import './TaskList.css';
@@ -115,4 +98,3 @@ class TaskList extends Component {
 }
 
 export default TaskList;
->>>>>>> 4135f17c1a68fee23c8b19064fcb8933ec5589bd
