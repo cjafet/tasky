@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+<<<<<<< HEAD
 import { createStore, compose, applyMiddleware } from 'redux';
 import { Provider } from 'react-redux';
 import thunk from 'redux-thunk';
@@ -25,6 +26,12 @@ ReactDOM.render(
     <Provider store={store}>
       <App />
     </Provider>
+=======
+
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+>>>>>>> 4135f17c1a68fee23c8b19064fcb8933ec5589bd
   </React.StrictMode>,
   document.getElementById('root')
 );

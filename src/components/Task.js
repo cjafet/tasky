@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 
 const TASK_STATUSES = [
@@ -29,3 +30,28 @@ const Task = props => {
 
 
 export default Task;
+=======
+import React from "react";
+import './Task.css';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHome, faComments, faEdit } from "@fortawesome/free-solid-svg-icons";
+
+
+const Task = props => {
+  const classes = `${props.task.color} Tasky`;
+  return (
+      <ul className={classes}>
+        {/* <li><FontAwesomeIcon icon={['fas', 'code']} /></li> */}
+        <li>{props.task.title}</li>
+        <li>{props.task.content}</li>
+        <li>
+            <ul className="CommentIcon">
+                <li><FontAwesomeIcon icon={faComments} /></li>
+            </ul>
+        </li>
+      </ul>
+  );
+};
+
+export default Task;
+>>>>>>> 4135f17c1a68fee23c8b19064fcb8933ec5589bd
