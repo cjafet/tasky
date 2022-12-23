@@ -1,16 +1,184 @@
 {
-    "tasks": [
-        {
-          "id": 1,
-          "title": "Learn Redux",
-          "description": "The store, actions, and reducers, oh my!",
-          "status": "Completed"
-        },
-        {
-          "id": 2,
-          "title": "Peace on Earth",
-          "description": "No big deal.",
-          "status": "In Progress"
-        }
-    ]
+  "tasks": [
+    {
+      "title": "Graphql",
+      "description": "make an api call with react or angular",
+      "status": "Completed",
+      "id": 11
+    },
+    {
+      "title": "Learn Clojure",
+      "description": "Read clojure book!",
+      "status": "Unstarted",
+      "id": 12
+    },
+    {
+      "title": "Certificação AWS",
+      "description": "Começar estudos",
+      "status": "Unstarted",
+      "id": 13
+    },
+    {
+      "title": "Kotlin",
+      "description": "Ray Wenderlich",
+      "status": "In Progress",
+      "id": 16
+    },
+    {
+      "title": "Java",
+      "description": "Sun",
+      "status": "In Progress",
+      "id": 17
+    },
+    {
+      "title": "Java Design Patterns",
+      "description": "Pluralsight",
+      "status": "In Progress",
+      "id": 18
+    },
+    {
+      "title": "Go",
+      "description": "TreeHouse",
+      "status": "Unstarted",
+      "id": 19
+    },
+    {
+      "title": "Python",
+      "description": "EDX",
+      "status": "In Progress",
+      "id": 20
+    },
+    {
+      "title": "Android kotlin",
+      "description": "Udacity",
+      "status": "In Progress",
+      "id": 21
+    },
+    {
+      "title": "Java",
+      "description": "Udacity",
+      "status": "In Progress",
+      "id": 22
+    },
+    {
+      "title": "Engenharia de Software",
+      "description": "PUC",
+      "status": "In Progress",
+      "id": 23
+    },
+    {
+      "title": "GitHub Actions",
+      "description": "",
+      "status": "Unstarted",
+      "id": 25
+    },
+    {
+      "title": "OPA",
+      "description": "",
+      "status": "In Progress",
+      "id": 26
+    },
+    {
+      "title": "Python Decorators",
+      "description": "TreeHouse",
+      "status": "Completed",
+      "id": 27
+    },
+    {
+      "title": "Flask",
+      "description": "",
+      "status": "Unstarted",
+      "id": 28
+    },
+    {
+      "title": "Flutter",
+      "description": "",
+      "status": "Unstarted",
+      "id": 29
+    },
+    {
+      "title": "Deno",
+      "description": "Pluralsight",
+      "status": "Unstarted",
+      "id": 30
+    },
+    {
+      "title": "Rust",
+      "description": "",
+      "status": "Unstarted",
+      "id": 31
+    },
+    {
+      "title": "Typescript",
+      "description": "OReilly",
+      "status": "In Progress",
+      "id": 32
+    },
+    {
+      "title": "React",
+      "description": "OReilly",
+      "status": "In Progress",
+      "id": 33
+    },
+    {
+      "title": "Kubernetes",
+      "description": "OReilly",
+      "status": "In Progress",
+      "id": 34
+    },
+    {
+      "title": "Swift",
+      "description": "Pluralsight",
+      "status": "Completed",
+      "id": 35
+    },
+    {
+      "title": "WebAssembly",
+      "description": "Pluralsight",
+      "status": "Completed",
+      "id": 36
+    },
+    {
+      "title": "CodeArtifact",
+      "description": "Pluralsight",
+      "status": "Completed",
+      "id": 37
+    },
+    {
+      "title": "iOS 11",
+      "description": "Pluralsight",
+      "status": "Completed",
+      "id": 38
+    },
+    {
+      "title": "React Hooks",
+      "description": "",
+      "status": "Unstarted",
+      "id": 39
+    },
+    {
+      "title": "Micronaut",
+      "description": "",
+      "status": "Unstarted",
+      "id": 40
+    },
+    {
+      "title": "Quarkus",
+      "description": "",
+      "status": "Unstarted",
+      "id": 41
+    },
+    {
+      "title": "nextjs",
+      "description": "",
+      "status": "Unstarted",
+      "id": 42
+    },
+    {
+      "title": "Service Mesh",
+      "description": "",
+      "status": "Unstarted",
+      "id": 43
+    }
+  ]
 }

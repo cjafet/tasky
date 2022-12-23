@@ -33,7 +33,7 @@ class TasksPage extends Component {
     e.preventDefault();
     this.props.onCreateTask({
       title: this.state.title,
-      description: this.state.description,
+      description: this.state.description
     });
     this.resetForm();
   };
@@ -54,12 +54,20 @@ class TasksPage extends Component {
           status={status}
           tasks={statusTasks}
           onStatusChange={this.props.onStatusChange}
+          onRemoveTask={this.props.onRemoveTask}
         />
       );
     });
   }
 
   render() {
+    if (this.props.isLoading) {
+      return (
+        <div className="tasks-loading">
+          <p>Loading...</p>
+        </div>
+      );
+    }
     return (
       <div className="tasks">
         <div className="tasks-header">

@@ -7,18 +7,25 @@ import { createStore, compose, applyMiddleware } from 'redux';
 import { Provider } from 'react-redux';
 import thunk from 'redux-thunk';
 import { devToolsEnhancer, composeWithDevTools } from 'redux-devtools-extension';
+import logger from './middleware/logger';
 
 // import our store reducers
-import tasks from './reducers';
+import tasksReducer from './reducers';
+
+const rootReducer = (state = {}, action) => {
+  return {
+    tasks: tasksReducer(state.tasks, action),
+  };
+};
 
 // Will add the store to the provider wrapper as props
 // const store = createStore(tasks, devToolsEnhancer);
-const store = createStore(tasks, composeWithDevTools(applyMiddleware(thunk)));
+const store = createStore(rootReducer, composeWithDevTools(applyMiddleware(thunk, logger)));
 
 
 
 // Read store current state
-console.log(store.getState());
+console.log("Store state: ",store.getState());
 
 ReactDOM.render(
   <React.StrictMode>

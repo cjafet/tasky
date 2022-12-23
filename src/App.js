@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import TasksPage from './components/TasksPage';
-import { createTask, editTask, fetchTasks } from './actions';
+import { createTask, editTask, fetchTasks, removeTask } from './actions';
+import FlashMessage from './components/FlashMessage';
 
 class App extends Component {
 
@@ -13,6 +14,11 @@ class App extends Component {
     this.props.dispatch(createTask({ title, description }));
   }
 
+  
+  onRemoveTask = (id) => {
+    this.props.dispatch(removeTask(id));
+  }
+
   onStatusChange = (id, status) => {
     this.props.dispatch(editTask(id, { status }));
   }
@@ -20,8 +26,18 @@ class App extends Component {
   render() {
     console.log('props from App: ', this.props);
     return (
-      <div className="main-content">
-        <TasksPage tasks={this.props.tasks} onCreateTask={this.onCreateTask} onStatusChange={this.onStatusChange} />
+      <div className="container">
+        { this.props.error && 
+        <FlashMessage message={this.props.error} />}
+        <div className="main-content">
+          <TasksPage 
+            tasks={this.props.tasks} 
+            onCreateTask={this.onCreateTask} 
+            onRemoveTask={this.onRemoveTask}
+            onStatusChange={this.onStatusChange} 
+            isLoading={this.props.isLoading}
+          />
+        </div>
       </div>
     );
   }
@@ -29,9 +45,8 @@ class App extends Component {
 
 // Use to pass only relevant data to the component as props 
 function mapStateToProps(state) {
-  return {
-    tasks: state.tasks
-  }
+  const { tasks, isLoading, error } = state.tasks;
+  return { tasks, isLoading, error };
 }
 
 // Get data from the redux store

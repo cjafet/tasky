@@ -42,8 +42,8 @@ hr {
 }
 
 .button-default {
-  background: #cacaca;
-  color: black;
+  background: #ed143d;
+  color: white;
 }
 
 /* layout */
@@ -82,7 +82,22 @@ hr {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #ed143d;
 }
+
+div.task-header > div {
+  color: #fff;
+}
+
+div.task-header > select {
+  border: 3px solid #ed143d;
+  /* box-shadow: 0 -1px 0 #e0e0e0, 0 0 2px rgba(0,0,0,.12), 0 2px 4px rgba(0,0,0,.24); */
+  background-color: #ed143d;
+  color: white;
+  font-weight: 600;
+}
+
+
 
 .task-body {
   padding: 10px 20px;
@@ -100,4 +115,19 @@ hr {
 
 .task-list-title {
   margin-bottom: 10px;
+}
+
+.tasks-loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.flash-error {
+  text-align: center;
+  padding: 25px;
+  background: #f2dede;
+  border-color: #ebcccc;
+  color: #a94442;
 }
